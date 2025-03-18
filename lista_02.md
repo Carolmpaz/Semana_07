@@ -35,11 +35,12 @@ D) O código avalia a expressão booleana, imprime `false` e ordena os valores e
 Resposta: A) O código avalia a expressão booleana, imprime `true`, calcula o produto dos números na lista e imprime o resultado no console.
 
 Justificativa: 
-Primeiramente, podemos observar uma expressão booleana como declaração da variável 'resultado', sendo o seu valor: 
-(10 % 3 === 1) → (1 === 1) = true
-(r * 2 > p) → (6 * 2 > 10) → (12 > 10) = true
-(q + r < p) → (3 + 6 < 10) → (9 < 10) = true
-(true && true) || true → true || true = true
+
+Primeiramente, podemos observar uma expressão booleana como declaração da variável 'resultado', sendo o seu valor: <br>
+(10 % 3 === 1) → (1 === 1) = true <br>
+(r * 2 > p) → (6 * 2 > 10) → (12 > 10) = true <br>
+(q + r < p) → (3 + 6 < 10) → (9 < 10) = true <br>
+(true && true) || true → true || true = true <br>
 
 Dessa forma o valor atribuido para a variável 'resultado' é true. 
 O código apresentado tem o objetivo de calcular o valor do produto de todos os elementos declarados na lista 'valores', de modo que após declacar uma variável 'produto' ela é multiplicada pelos elementos da lista, recebendo sempre um novo valor. 
@@ -108,17 +109,21 @@ Resposta: A) Ambas as funções exibirão: 'Seu crédito foi aprovado. Saldo dis
 
 Justificativa: 
 
-while:  1: totalCompras = 2500 + 1200 = 3700, i = 2
-        2: totalCompras = 3700 + 800 = 4500, i = 3
-        3: totalCompras = 4500 + 100 = 4600, i = 4
-        i < compras.length (false) 
-        saldoDisponivel = 5000 - 4600 = 400
+while:  
 
-do while: 1: totalCompras = 2500 + 1200 = 3700, i = 2
-          2: totalCompras = 3700 + 800 = 4500, i = 3
-          3: totalCompras = 4500 + 100 = 4600, i = 4
-          i < compras.length (false) 
-          saldoDisponivel = 5000 - 4600 = 400
+1: totalCompras = 2500 + 1200 = 3700, i = 2 <br>
+        2: totalCompras = 3700 + 800 = 4500, i = 3 <br>
+        3: totalCompras = 4500 + 100 = 4600, i = 4 <br>
+        i < compras.length (false) <br>
+        saldoDisponivel = 5000 - 4600 = 400 <br>
+
+do while: 
+
+1: totalCompras = 2500 + 1200 = 3700, i = 2 <br>
+          2: totalCompras = 3700 + 800 = 4500, i = 3 <br>
+          3: totalCompras = 4500 + 100 = 4600, i = 4 <br>
+          i < compras.length (false) <br>
+          saldoDisponivel = 5000 - 4600 = 400 <br>
 ______
 
 **3)** Considere o seguinte trecho de código em JavaScript:
@@ -216,7 +221,11 @@ Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
 Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
-Resposta: D)
+
+
+**Resposta:** 
+
+D) 
 Dispositivo 1 ligado. Energia restante: 900
 
 Dispositivo 2 ligado. Energia restante: 300
@@ -228,11 +237,11 @@ Dispositivo 4 não pode ser ligado. Energia insuficiente.
 Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
 Justificativa:
-Dispositivo 1 -> Condição: 300 ≤ 1200 (verdadeiro) -> 1200 - 300 = 900
-Dispositivo 2 -> Condição: 600 ≤ 900 (verdadeiro) -> 900 - 600 = 300
-Dispositivo 3 -> Condição: 500 ≤ 300 (falso); 500 ≤ 300 + 400 (verdadeiro) -> 700 - 500 = 200 (Bateria extra)
-Dispositivo 4 -> Condição: 200 ≤ -200 (falso); 200 ≤ -200 + 200 (falso) -> 200 - 200 = 0 (Bateria extra) 
-Dispositivo 5 -> Condição: 400 ≤ -200 (falso); 400 ≤ -200 + 0 (falso) -> (Energia insufuciente)
+Dispositivo 1 -> Condição: 300 ≤ 1200 (verdadeiro) -> 1200 - 300 = 900 <br>
+Dispositivo 2 -> Condição: 600 ≤ 900 (verdadeiro) -> 900 - 600 = 300 <br>
+Dispositivo 3 -> Condição: 500 ≤ 300 (falso); 500 ≤ 300 + 400 (verdadeiro) -> 700 - 500 = 200 (Bateria extra) <br>
+Dispositivo 4 -> Condição: 200 ≤ -200 (falso); 200 ≤ -200 + 200 (falso) -> 200 - 200 = 0 (Bateria extra) <br>
+Dispositivo 5 -> Condição: 400 ≤ -200 (falso); 400 ≤ -200 + 0 (falso) -> (Energia insufuciente) <br>
 
 ______
 
@@ -248,7 +257,8 @@ C) O método update() renderiza todos os sprites na tela e garante que a física
 
 D) O método update() é chamado apenas uma vez após a criação da cena, sendo utilizado para configurar variáveis iniciais do jogo.
 
-Resposta: B) O método update() é chamado continuamente a cada quadro (frame) do jogo, sendo usado para atualizar a lógica, movimentação e interações dos objetos na cena.
+
+**Resposta:**  B) O método update() é chamado continuamente a cada quadro (frame) do jogo, sendo usado para atualizar a lógica, movimentação e interações dos objetos na cena.
 
 
 ______
@@ -265,7 +275,8 @@ C) Renderizar gráficos otimizados para jogos 2D e garantir uma taxa de quadros 
 
 D) Criar animações automáticas para sprites e objetos interativos sem necessidade de programação de movimentação.
 
-Resposta: A) Simular física avançada, incluindo corpos rígidos, colisões complexas e interação entre objetos com gravidade e forças.
+
+**Resposta:**  A) Simular física avançada, incluindo corpos rígidos, colisões complexas e interação entre objetos com gravidade e forças.
 
 ______
 
@@ -283,9 +294,8 @@ Pedidos de R$200,00 ou mais → "Frete grátis!"
 ```
 Implemente um pseudocódigo que receba o valor total da compra e exiba a classificação correta do frete para o cliente.
 
-Resposta: 
-´´´
-
+**Resposta:** 
+```
 Entrada valorCompra
 
 Se valorCompra < 50 então:
@@ -295,7 +305,7 @@ Senão se valorCompra > = 50  E valorCompra <= 199.99 então:
 Senão
     Exibir "Frete grátis!"
 
-´´´
+```
 ______
 
 **8)** Considere a implementação da classe base Veiculo em um sistema de modelagem de veículos. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Carro e Moto, que herdam da classe Veiculo, adicionando atributos específicos e métodos para calcular o consumo de combustível de um carro e de uma moto, respectivamente.
@@ -314,7 +324,7 @@ Método CalcularConsumo():
 Implementação genérica para cálculo de consumo, a ser sobrescrita pelas subclasses.
 Agora, implemente as classes Carro e Moto, garantindo que ambas herdem de Veiculo e possuam métodos específicos para calcular o consumo de combustível com base na quilometragem e eficiência do veículo.
 
-Resposta: 
+**Resposta:** 
 
 ```
 Classe Veiculo:
@@ -371,7 +381,7 @@ Considere a fórumla de atualização velocidade:
 ```
 Seu programa deve determinar quanto tempo será necessário para que a sonda atinja uma velocidade segura de pouso, sem ultrapassar os limites estabelecidos.
 
-Resposta:
+**Resposta:**
 ```
     Definir velocidadeInicial, desaceleracao, tempoMaximo, velocidadeMinima
     Definir tempo ← 0
@@ -421,7 +431,7 @@ ImprimirMatriz(totalInvestimentos)
 ```
 Agora, implemente a função MultiplicarMatrizesInvestimento(matrizA, matrizB), que multiplica as duas matrizes, simulando o efeito de diferentes fatores de crescimento e impacto financeiro nos investimentos ao longo do tempo.
 
-Resposta:
+**Resposta:**
 ```
 Função MultiplicarMatrizesInvestimento(matrizA, matrizB):
     # Verifica se as matrizes têm o mesmo número de linhas e colunas  
